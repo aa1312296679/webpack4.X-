@@ -1,0 +1,11 @@
+@charset "utf-8";
+$border:1px solid black;
+
+#testBox2{
+  width: 100px;
+  height: 100px;
+  border: $border;
+  background: none;
+  background-size: 100% 100%;
+  transform: rotate(45deg);
+}
