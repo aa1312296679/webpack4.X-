@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "6b563671139f9e6d2690";
+/******/ 	var hotCurrentHash = "470c4fa4016906057e24";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -843,11 +843,11 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /*!***********************!*\
   !*** ./src/index2.js ***!
   \***********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(jQuery) {\n\n__webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n\n__webpack_require__(/*! ./sass/custom.scss */ \"./src/sass/custom.scss\");\n\njQuery('testBox').innerHTML = 'testBox2';\n\n__webpack_require__(/*! ./testBabel */ \"./src/testBabel.js\")(\"秦乙\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./src/index2.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(jQuery) {/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _sass_custom_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sass/custom.scss */ \"./src/sass/custom.scss\");\n/* harmony import */ var _sass_custom_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_custom_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\njQuery('testBox').innerHTML = 'testBox2';\n\n__webpack_require__(/*! ./testBabel */ \"./src/testBabel.js\")(\"秦乙\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./src/index2.js?");
 
 /***/ }),
 
@@ -867,10 +867,9 @@ eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./sr
   !*** ./src/testBabel.js ***!
   \**************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-eval("\n\nmodule.exports = function (str) {\n  alert(\"hello\" + str);\n};\n\n//# sourceURL=webpack:///./src/testBabel.js?");
+eval("module.exports = function (str) {\n  alert(\"hello\" + str);\n};\n\n//# sourceURL=webpack:///./src/testBabel.js?");
 
 /***/ })
 
